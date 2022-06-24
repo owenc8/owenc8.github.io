@@ -1,0 +1,108 @@
+
+body {
+	font-family: Roboto, Helvetica, Verdana, sans-serif;
+	margin: 1rem;
+	font-size: 1.25rem;
+}
+
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+
+h2 {
+	font-size: 2.25rem;
+	margin-bottom: 0;
+}
+
+
+h3 {
+	font-size: 1.6rem;
+	margin-bottom: 0;
+}
+
+
+p, ol, ul {
+	max-width: 40rem;
+}
+
+
+img {
+	height: auto; 
+	max-width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black; 
+}
+
+
+figure {
+	margin: 0;
+}
+
+
+figcaption {
+	font-style: italic;
+}
+
+
+a {
+	color: rgb(200,0,0);
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+
+
+a:hover, a:focus {
+	color: rgb(50,0,0); 
+	text-decoration: none;
+}
+
+
+
+
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: rgb(50,50,50);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.bottomnav{
+	background-color: rgb(23, 37, 42);
+	height: 200px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.bottomnav a{
+	color: white;
+}
