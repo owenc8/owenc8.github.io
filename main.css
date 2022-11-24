@@ -1,35 +1,53 @@
 
 body {
 	font-family:'montserrat';
-	
+	color: #292D3D;
+	background-color: #F2FAFF;
 }
 
 @font-face{
 	font-family: "montserrat";
-	src: url("Montserrat-Regular.ttf");
-  
+	src: url("Fonts/Montserrat-Regular.ttf");
+
 	
-  }
+}
+
+@font-face{
+	font-family: "montserrat-B";
+	src: url("Fonts/Montserrat-Bold.ttf");
+}
+
+@font-face{
+	font-family: "montserrat-v";
+	src: url("Fonts/Montserrat-VariableFont_wght.ttf");
+}
   
 h1 {
+	font-family: 'montserrat-B';
 	font-size: 3rem;
 	margin-bottom: 0;
+	
 }
 
 
+
 h2 {
+	font-family: 'montserrat-B';
 	font-size: 2.25rem;
 	margin-bottom: 0;
 }
 
 
 h3 {
+	font-family: 'montserrat';
+	color: #C67000;
 	font-size: 1.6rem;
 	margin-bottom: 0;
 }
 
 
 p, ol, ul {
+	font-family: 'montserrat';
 	max-width: 40rem;
 }
 
@@ -52,11 +70,17 @@ figcaption {
 	font-style: italic;
 }
 
-
+.in-text{
+	font-family: 'montserrat-v';
+	font-weight: 800;
+}
 a {
-	color: rgb(200,0,0);
+	
+	color: #D91111;
 	transition-property: color;
 	transition-duration: 0.5s;
+	
+	text-decoration: none;
 }
 
 
@@ -65,7 +89,9 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-
+.introduction{
+	margin-left: 1em;
+}
 
 
 
@@ -76,25 +102,42 @@ a:hover, a:focus {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(255, 255, 255);
+    background-color: #F2FAFF;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #000000;
+  color: #292D3D;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.7em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
+  border-bottom-style: solid;
+  border-bottom-color: #F2FAFF;
+  border-bottom-width: 0.17rem;
+  transition-property: border-bottom-color;
+  transition-duration: 0.5s;
+  
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  border-bottom-color: #292D3D;
+  color: #292D3D;
+  
 }
+
+.element{
+	padding-bottom: 2rem;
+	border-top-width: 0.15rem;
+	border-top-style: solid;
+	border-top-color: #FFBC42;
+	/* background-color: rgb(28, 28, 28); */
+	margin-left: 1rem;	
+}
+
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
@@ -110,4 +153,12 @@ a:hover, a:focus {
 
 .bottomnav a{
 	color: white;
+}
+
+
+.guidebox{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
+	justify-content: space-evenly;
 }
