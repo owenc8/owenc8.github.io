@@ -1,11 +1,16 @@
 
 body {
-	font-family: Roboto, Helvetica, Verdana, sans-serif;
-	margin: 1rem;
-	font-size: 1.25rem;
+	font-family:'montserrat';
+	
 }
 
-
+@font-face{
+	font-family: "montserrat";
+	src: url("Montserrat-Regular.ttf");
+  
+	
+  }
+  
 h1 {
 	font-size: 3rem;
 	margin-bottom: 0;
