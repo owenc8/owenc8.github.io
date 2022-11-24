@@ -51,10 +51,17 @@ p, ol, ul {
 	max-width: 40rem;
 }
 
-
+h4{
+	font-family: 'montserrat';
+	margin-bottom: 0;
+}
 img {
 	height: auto; 
 	max-width: 100%;
+	
+}
+
+.border{
 	border-width: 1px;
 	border-style: solid;
 	border-color: black; 
@@ -161,4 +168,42 @@ a:hover, a:focus {
 	flex-wrap: wrap;
 	margin-top: 1em;
 	justify-content: space-evenly;
+}
+
+.homebox{
+	background-color: #C67000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	color: #F2FAFF;
+	width: 100%;
+}
+
+.homeimg{
+	margin-block: 2.5rem;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_arrows.asp */
+
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+  
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+  
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
 }
