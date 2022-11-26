@@ -110,10 +110,7 @@ a:hover, a:focus {
 
 
 
-.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: white;
-	background-color: rgb(50,50,50);
-}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -135,6 +132,25 @@ a:hover, a:focus {
   transition-property: border-bottom-color;
   transition-duration: 0.5s;
   
+}
+
+.readbutton a{
+	background-color: #292D3D;
+	color: #F2FAFF;
+	text-decoration: none;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	border-style: solid;
+	border-color: #F2FAFF;
+	border-width: 0.1rem;
+	transition-property: border-color, color;
+	transition-duration: 0.5s;
+
+}
+
+.readbutton a:hover, .readbutton a:focus{
+border-color: #D91111;
+color: #D91111;
 }
 
 /* Change the color of links on hover */
@@ -179,7 +195,7 @@ a:hover, a:focus {
 }
 
 .homebox{
-	background-color: #C67000;
+	background-color: #292D3D;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -235,4 +251,9 @@ justify-content: space-evenly;
 .up {
 	transform: rotate(-135deg);
 	-webkit-transform: rotate(-135deg);
+}
+
+.bottomMarg{
+	margin-bottom: 2rem;
+
 }
