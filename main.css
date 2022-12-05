@@ -101,11 +101,12 @@ a:hover, a:focus {
 }
 
 .projtext{
-	margin-left: 5em;
+	margin-left: 7em;
 }
 
 .leftmarg{
-	margin-left: 5em;
+	/* margin-left: 5em; */
+	padding-left: 5rem;
 }
 
 
@@ -201,6 +202,7 @@ color: #D91111;
 	justify-content: space-between;
 	color: #F2FAFF;
 	width: 100%;
+	
 }
 
 .homeimg{
@@ -221,12 +223,15 @@ color: #D91111;
 .imgbox{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-evenly;
+/* justify-content: space-evenly; */
+margin-left: 4em;
+margin-top: 3em;
 }
 
 .projimg{
 	width: 20%;
 	height: auto;
+	margin-left: 3em;
 }
 
 /* https://www.w3schools.com/howto/howto_css_arrows.asp */
@@ -254,6 +259,21 @@ justify-content: space-evenly;
 }
 
 .bottomMarg{
-	margin-bottom: 2rem;
+	/* margin-bottom: 2rem; */
+	padding-block: 2rem;
 
+}
+
+.projtitle{
+	background-color: #292D3D;
+	color: #F2FAFF;
+	
+}
+
+.title{
+	display: inline-block;
+	padding-bottom: 0.5rem;
+	border-bottom-style: solid;
+	border-bottom-color:#FFBC42 ;
+	border-bottom-width: 0.1rem;
 }
