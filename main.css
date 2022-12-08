@@ -140,6 +140,7 @@ a:hover, a:focus {
 	color: #F2FAFF;
 	text-decoration: none;
 	margin-top: 1rem;
+	
 	padding: 0.5rem;
 	border-style: solid;
 	border-color: #F2FAFF;
@@ -199,9 +200,11 @@ color: #D91111;
 	background-color: #292D3D;
 	display: flex;
 	flex-wrap: wrap;
+	
 	justify-content: space-between;
 	color: #F2FAFF;
 	width: 100%;
+	padding-inline: 15em;
 	
 }
 
