@@ -2,7 +2,7 @@
 body {
 	font-family:'montserrat';
 	color: #292D3D;
-	background-color: #F2FAFF;
+	background-color: #ffffff;
 }
 
 @font-face{
@@ -115,7 +115,7 @@ a:hover, a:focus {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #F2FAFF;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -128,7 +128,7 @@ a:hover, a:focus {
   text-decoration: none;
   font-size: 1em;
   border-bottom-style: solid;
-  border-bottom-color: #F2FAFF;
+  border-bottom-color: #ffffff;
   border-bottom-width: 0.17rem;
   transition-property: border-bottom-color;
   transition-duration: 0.5s;
@@ -137,13 +137,13 @@ a:hover, a:focus {
 
 .readbutton a{
 	background-color: #292D3D;
-	color: #F2FAFF;
+	color: #ffffff;
 	text-decoration: none;
 	margin-top: 1rem;
 	
 	padding: 0.5rem;
 	border-style: solid;
-	border-color: #F2FAFF;
+	border-color: #ffffff;
 	border-width: 0.1rem;
 	transition-property: border-color, color;
 	transition-duration: 0.5s;
@@ -202,7 +202,7 @@ color: #D91111;
 	flex-wrap: wrap;
 	
 	justify-content: space-between;
-	color: #F2FAFF;
+	color: #ffffff;
 	width: 100%;
 	padding-inline: 10em;
 	
@@ -269,7 +269,7 @@ margin-top: 3em;
 
 .projtitle{
 	background-color: #292D3D;
-	color: #F2FAFF;
+	color: #ffffff;
 	
 	
 }
@@ -359,7 +359,7 @@ margin-top: 3em;
 	flex-direction: column;
 	
 	
-	color: #F2FAFF;
+	color: #ffffff;
 	height:20%;
 	width: 100%;
 	padding-inline: 10em;
