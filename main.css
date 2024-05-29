@@ -145,7 +145,7 @@ div.sticky{
 }
 
 .readbutton a{
-	background-color: #292D3D;
+	background-color: black;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 1rem;
@@ -166,8 +166,8 @@ color: #D91111;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  border-bottom-color: #292D3D;
-  color: #292D3D;
+  border-bottom-color: black;
+  color: black;
   
 }
 
@@ -187,7 +187,7 @@ color: #D91111;
 }
 
 .bottomnav{
-	background-color: rgb(23, 37, 42);
+	background-color: black;
 	height: 200px;
 	text-align: center;
 	text-decoration: none;
@@ -206,7 +206,7 @@ color: #D91111;
 }
 
 .homebox{
-	background-color: #292D3D;
+	background-color: black;
 	display: flex;
 	flex-wrap: wrap;
 	
@@ -277,7 +277,7 @@ margin-top: 3em;
 }
 
 .projtitle{
-	background-color: #292D3D;
+	background-color: black;
 	color: #ffffff;
 	
 	
