@@ -1,1 +1,6 @@
-/* We are going to work in this file for all the positioning pieces we want to cover */
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+

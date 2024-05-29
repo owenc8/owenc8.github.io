@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+  <main>
+    <section class="project-gallery">
+      <div class="project">
+        <img src="img/steamfeature.png" alt="Project 1">
+        <h2>Project 1</h2>
+        <p>Description of Project 1</p>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <h2>Project 2</h2>
+        <p>Description of Project 2</p>
+      </div>
+      <div class="project">
+        <img src="project3.jpg" alt="Project 3">
+        <h2>Project 3</h2>
+        <p>Description of Project 3</p>
+      </div>
+      <div class="project">
+        
+        <img src="img/logotype102.png" alt="Project 4">
+        <h2>Project 4</h2>
+        <p>Description of Project 4</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Portfolio</p>
+  </footer>
+  <script>
+    // Scroll Animations
+    const projects = document.querySelectorAll('.project');
+
+    function scrollAnimations() {
+      projects.forEach((project) => {
+        if (isElementInViewport(project)) {
+          project.classList.add('animated');
+        }
+      });
+    }
+
+    function isElementInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    window.addEventListener('scroll', scrollAnimations);
+    window.addEventListener('resize', scrollAnimations);
+    scrollAnimations();
+  </script>
+</body>
+</html>
