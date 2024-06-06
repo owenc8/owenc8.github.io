@@ -1,6 +1,6 @@
 body {
 	font-family:'montserrat';
-	color: #292D3D;
+	color: black;
 	background-color: #ffffff;
 	margin:0;
 }
@@ -60,6 +60,7 @@ img {
 	height: auto; 
 	max-width: 100%;
 	
+	
 }
 
 .border{
@@ -102,7 +103,7 @@ a:hover, a:focus {
 }
 
 .projtext{
-	margin-left: 5em;
+	width: 100%;
 	
 }
 
@@ -125,13 +126,13 @@ div.sticky{
     top: 0.7em;
 	
 	float: right;
-	
+	font-family: 'montserrat';
 	
 }
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #292D3D;
+  color: black;
   text-align: center;
   padding: 0.7em;
   text-decoration: none;
@@ -233,17 +234,17 @@ color: #D91111;
 }
 
 .imgbox{
-display: flex;
-flex-wrap: wrap;
-/* justify-content: space-evenly; */
-margin-left: 4em;
-margin-top: 3em;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
 }
 
 .projimg{
 	width: 20%;
 	height: auto;
-	margin-left: 3em;
+	
 }
 
 /* https://www.w3schools.com/howto/howto_css_arrows.asp */
@@ -313,7 +314,7 @@ margin-top: 3em;
 @media screen and (max-width: 580px){
 	.imglink, .projtext{
 		
-		margin-left: 2em;
+		margin-left: 0em;
 	}
 
 }
@@ -322,8 +323,12 @@ margin-top: 3em;
 
 
 .paraPadding{
-	
-	padding-left: 5em;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 5em;
 	padding-top: 2em;
 }
 
@@ -362,7 +367,7 @@ margin-top: 3em;
 }
 
 .footer{
-	background-color: #292D3D;
+	background-color: black;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
