@@ -131,6 +131,7 @@ div.sticky{
 }
 /* Style the links inside the navigation bar */
 .topnav a {
+	font-family: 'montserrat';
   float: left;
   color: black;
   text-align: center;
@@ -146,6 +147,7 @@ div.sticky{
 }
 
 .readbutton a{
+	font-family: 'montserrat';
 	background-color: black;
 	color: #ffffff;
 	text-decoration: none;
@@ -153,16 +155,16 @@ div.sticky{
 	
 	padding: 0.5rem;
 	border-style: solid;
-	border-color: #ffffff;
+	border-color: #000000;
 	border-width: 0.1rem;
-	transition-property: border-color, color;
+	transition-property: background-color, color;
 	transition-duration: 0.5s;
 
 }
 
 .readbutton a:hover, .readbutton a:focus{
-border-color: #D91111;
-color: #D91111;
+background-color: #ffffff;
+color: #000000;
 }
 
 /* Change the color of links on hover */
@@ -207,14 +209,14 @@ color: #D91111;
 }
 
 .homebox{
-	background-color: black;
+	background-color:white;
 	display: flex;
 	flex-wrap: wrap;
 	
 	justify-content: space-between;
-	color: #ffffff;
-	width: 100%;
-	padding-inline: 10em;
+	color: black;
+	max-width: 40%;
+	/* padding-inline: 10em; */
 	
 }
 
@@ -230,7 +232,7 @@ color: #D91111;
 	height: auto; 
 	max-width: 30%;
 	margin-block: 2.5em;
-	margin-right: 5em;
+	
 }
 
 .imgbox{
@@ -278,8 +280,8 @@ color: #D91111;
 }
 
 .projtitle{
-	background-color: black;
-	color: #ffffff;
+	background-color: white;
+	color: black;
 	
 	
 }
