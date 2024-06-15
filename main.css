@@ -33,7 +33,7 @@ h1 {
 
 h2 {
 	font-family: 'montserrat-B';
-	font-size: 2.25rem;
+	font-size: 1.8rem;
 	margin-bottom: 0;
 	text-align: left;
 }
@@ -42,7 +42,7 @@ h2 {
 h3 {
 	font-family: 'montserrat';
 	color: #C67000;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin-bottom: 0;
 }
 
@@ -148,23 +148,23 @@ div.sticky{
 
 .readbutton a{
 	font-family: 'montserrat';
-	background-color: black;
-	color: #ffffff;
+	background-color: white;
+	color: black;
 	text-decoration: none;
 	margin-top: 1rem;
 	
 	padding: 0.5rem;
 	border-style: solid;
 	border-color: #000000;
-	border-width: 0.1rem;
+	border-width: 0.07rem;
 	transition-property: background-color, color;
 	transition-duration: 0.5s;
 
 }
 
 .readbutton a:hover, .readbutton a:focus{
-background-color: #ffffff;
-color: #000000;
+background-color: black;
+color: white;
 }
 
 /* Change the color of links on hover */
@@ -216,7 +216,20 @@ color: #000000;
 	justify-content: space-between;
 	color: black;
 	max-width: 40%;
-	/* padding-inline: 10em; */
+	margin-inline: 2em;
+	
+}
+
+.homebox2{
+	background-color:white;
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	color: black;
+	max-width: 40%;
+	margin-inline: 2em;
+	padding-left: 12vw;
 	
 }
 
@@ -230,7 +243,7 @@ color: #000000;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	height: auto; 
-	max-width: 30%;
+	max-width: 80%;
 	margin-block: 2.5em;
 	
 }
@@ -321,6 +334,13 @@ color: #000000;
 
 }
 
+@media screen and (max-width: 800px){
+	.homebox{
+		
+		max-width: 80%;
+	}
+
+}
 
 
 
@@ -349,6 +369,8 @@ color: #000000;
 	justify-content: center;
 	align-content: center;
 	padding-bottom: 2em;
+	font-size: 3rem;
+	
 	
 }
 
@@ -368,6 +390,14 @@ color: #000000;
 	
 }
 
+@media screen and (max-width:700px){
+	.bio{
+		padding-inline: 2em;
+	}
+
+	
+
+}
 .footer{
 	background-color: black;
 	display: flex;
