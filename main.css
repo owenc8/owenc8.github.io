@@ -140,7 +140,7 @@ div.sticky{
   font-size: 1em;
   border-bottom-style: solid;
   border-bottom-color: #ffffff;
-  border-bottom-width: 0.17rem;
+  border-bottom-width: 0.07rem;
   transition-property: border-bottom-color;
   transition-duration: 0.5s;
   
@@ -382,9 +382,9 @@ color: white;
 	
 }
 @media screen and (max-width:550px){
-	.brochure{
-		width:80%;
-		margin-left: 0rem;
+	.imglink{
+		max-width:100%;
+		
 	}
 
 	
