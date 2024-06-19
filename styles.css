@@ -107,7 +107,7 @@ footer {
 }
 
 .imgBox{
-  max-width: 100%;
+  max-width: 80%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -115,6 +115,28 @@ footer {
   padding-inline: 1em;
   
   
+}
+
+.bigImgBox{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  
+}
+
+.bigImgContainer{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding-inline: 10%;
+  justify-content: center;
+  padding-top: 1em;
 }
 
 .imgContainer{
@@ -149,16 +171,8 @@ footer {
   
 }
 
-.homeContainer{
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding-inline: 10vw;
-
-
+video{
+  max-width: 80%;
 }
 
 @media screen and (max-width:850px){

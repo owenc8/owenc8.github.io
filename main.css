@@ -208,6 +208,20 @@ color: white;
 	justify-content: space-evenly;
 }
 
+.homeContainer{
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	
+	justify-content: space-around;
+	padding-inline: 5vw;
+	/* align-content:center ; */
+  
+  
+  }
+
 .homebox{
 	background-color:white;
 	display: flex;
@@ -215,8 +229,8 @@ color: white;
 	
 	justify-content: space-between;
 	color: black;
-	max-width: 40%;
-	margin-inline: 2em;
+	max-width: 33%;
+	/* margin-inline: 1em; */
 	
 }
 
