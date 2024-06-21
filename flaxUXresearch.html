@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type = "text/css" href="main.css">
     <link rel="stylesheet" type = "text/css" href="styles.css">
+    <!-- <link rel="stylesheet" type = "js" href="interactions.js"> -->
     <!-- <link rel="stylesheet" type = "text/css" href="positioning.css"> -->
 
 
@@ -24,6 +25,7 @@
         <header>
            
 		</header>
+
     <!-- dummy section -->
         <section class = "projectSection"> 
             <p>
@@ -38,10 +40,10 @@
 
             <h3>PROJECT DESCRIPTION</h3>
 
-            <p class = "projtext">Wilet is a female-founded company based in Vancouver, BC offering 100% linen products such as bedding and various home goods- providing everyday luxury and comfort. We got in touch with them for this UX research project through one of our group members.
+            <p class = "projtext">Flax Home was a female-founded company based in Vancouver, BC offering 100% linen products such as bedding and various home goods- providing everyday luxury and comfort. We got in touch with them for this UX research project through one of our group members.
             </p>
 
-            <p class = "projtext">In our initial discussion with Wilet (previously Flax Home), they expressed that their website was primarily built for desktop usage although over 50% of their customers are mobile users. Through this evaluation and the design recommendations we provide, we hoped to optimize the mobile shopping experiences for their target users.</p>
+            <p class = "projtext">In our initial discussion with Flax Home (now known as Wilet), they expressed that their website was primarily built for desktop usage although over 50% of their customers are mobile users. Through this evaluation and the design recommendations we provide, we hoped to optimize the mobile shopping experiences for their target users.</p>
 
 
         </section>
@@ -54,27 +56,45 @@
 
                 <div class = imgBox2 >
                     
-                    <img src="img/flax ux/heuristic eval 1.png" alt="mobile broadcasts" class = "singleImg2">
+                    <img src="img/flax ux/heuristic eval 1.png" alt="mobile broadcasts" class="thumbnail">
                     <figcaption>Screenshots of tables detailing my observations</figcaption>
+                    <div id="overlay" class="overlay">
+                        <img src="img/flax ux/heuristic eval 1.png" alt="Large Image" id="largeImage">
+                    </div>
+    
                     
                 </div>
                 
                 <div class = imgBox2 >
-                    <img src="img/flax ux/heuristic eval 2.png" alt="mobile library"  class = "singleImg2">
+                    <img src="img/flax ux/heuristic eval 2.png" alt="mobile library"  class="thumbnail">
+                    <div id="overlay" class="overlay">
+                        <img src="img/flax ux/heuristic eval 2.png" alt="Large Image" id="largeImage">
+                    </div>
+    
+                    
                 </div> 
                 
             </div>
-        <p class = "projtext">Before coming together as a group we each took a look at the mobile site to see if we could find any potential problems with how information is displayed and interactive features. The interface was evaluated using Jakob Nielsen's 10 general principles for interaction design.
+        <p class = "projtext">Before coming together as a group we each interacted with the mobile site to see if we could find any potential problems with how information is displayed and interactive features. The interface was evaluated using Jakob Nielsen's 10 general principles for interaction design.
         </p>
 
         <div class = imgContainer>
 
             <div class = imgBox >
                 <figure>
-                <img src="img/flax ux/team heuristic eval.png" alt="mobile broadcasts" class = "singleImg2">
-                <figcaption>Screenshot of our group's Figma board where we organized problem areas</figcaption>
+               
+                    <img src="img/flax ux/team heuristic eval.png" alt="mobile broadcasts" class="thumbnail" >
+                    <figcaption>Screenshot of our group's Figma board where we organized problem areas</figcaption>
+               
                 </figure>
+
+                <div id="overlay" class="overlay">
+                    <img src="img/flax ux/team heuristic eval.png" alt="Large Image" id="largeImage">
+                </div>
+
+                
             </div>
+
             
            
             
@@ -88,7 +108,7 @@
 
         <h2 >User Testing</h2>
 
-        <p>In addition to conducting our own background research, the team at Flax Home provided us with Google analytics data to get a better sense of who their customer base was. This was important since we had to recruit our own users for the testing and we wanted them to accurately represent the people who would visit the site. Before starting the user tests, we sent out the consent forms and a pre-test questionnaire to get a better understanding of user shopping habits and behaviours when it came to shopping for bedding. I recruited three participants through help from a family member.</p>
+        <p>In addition to conducting our own background research, the team at Flax Home provided us with Google analytics data to get a better sense of who their customer base was. This was important since we had to recruit our own users for testing, and we wanted them to accurately represent the people who would visit the site. Before starting the user tests, we sent out the consent forms and a pre-test questionnaire to get a better understanding of user shopping habits and behaviours when it came to shopping for bedding. I recruited three participants through help from a family member.</p>
 
         <p>7 female participants aged 25-45 were recruited with each completing a 1 hour long moderated usability test over Zoom.
         </p>
@@ -121,16 +141,20 @@
 
             <div class = imgBox >
                 <figure>
-                    <img src="img/flax ux/affinity map flax.png" alt="mobile broadcasts" class = "singleImg2">
+                    <img src="img/flax ux/affinity map flax.png" alt="mobile broadcasts" class = "thumbnail">
                     <figcaption>Group affinity map in Figma based on comments from study participants</figcaption>
                 </figure>
+
+                <div id="overlay" class="overlay">
+                    <img src="img/flax ux/affinity map flax.png" alt="Large Image" id="largeImage">
+                </div>
             </div>
 
            
             
         </div>
 
-        <p class = "projtext">The main pain points we observed were with confusing terminology such as "shams vs pillowcases" and the bundles feature where many participants were confused about having to make two distinct colour/ size selections for the bundles. Some participants did not notice the second selection.
+        <p class = "projtext">The main pain points we observed were with confusing terminology such as "shams vs pillowcases" and the bundles feature where many participants were confused about having to make two distinct colour and size selections for the bundles. Some participants did not notice the second selection.
 
 
         </p>
@@ -177,7 +201,7 @@
         <h2>Takeaways</h2>
 
 
-        <p class = "projtext">Overall it was an interesting experience getting to work with a real company to help make recommendations for their interface. Learning how to recruit and interview users was also helpful, since it gave me a better perspective on what needed to be adjusted in the interface. It was also useful since in a normal project we as the designer have a chance of being biased to our own work and thinking it is completely optimal. In this project we were only able to recruit 11 total participants which is a limitation in terms of validity. If done again I wish we could have recruited more people for testing.  A group of 5 was the largest team I have had to work with academically so that posed challenges such as distributing work and making sure everyone's ideas were heard. 
+        <p class = "projtext">Overall it was an interesting experience getting to work with a real company to help make recommendations for their interface. Learning how to recruit and interview users was also helpful since it gave me a better perspective on what needed to be adjusted in the interface. In this project we were only able to recruit 11 total participants which is a limitation in terms of validity. If done again I wish I could have recruited more people for testing in both stages.  A group of 5 was the largest team I have had to work with academically so that posed challenges such as distributing work and making sure everyone's ideas were heard. 
         </p>
 
         <p class = "projtext"></p>
@@ -193,7 +217,8 @@
             
             <p>oca8@sfu.ca</p>
         </div>
-        
+    
+        <script src="interactions.js"></script>
     </body>
    
 </html>
