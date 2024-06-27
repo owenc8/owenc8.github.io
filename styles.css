@@ -171,6 +171,18 @@ footer {
   
 }
 
+.imgBox4{
+  max-width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  padding-inline: 1em;
+  
+  
+}
+
 video{
   max-width: 80%;
 }
