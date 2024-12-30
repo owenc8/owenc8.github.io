@@ -160,6 +160,16 @@ footer {
   padding-top: 1em;
 }
 
+.imgContainer3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-inline: 0%;
+  justify-content: center;
+  padding-top: 1em;
+}
+
 .imgBox3{
   max-width: 20%;
   display: flex;
@@ -185,7 +195,7 @@ footer {
 
 
 .imgBox5{
-  max-width: 50%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -259,4 +269,13 @@ video{
 .overlay img {
   max-width: 90%;
   max-height: 90%;
+}
+
+.gif-text-container { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+  height: auto;
+  width: 40rem ;
+  padding-top: 1em;
 }
